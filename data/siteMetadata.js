@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'perfhack.com - We talk about web performance',
-  author: 'oerfhack',
+  author: 'perfhack',
   headerTitle: 'perfHack',
   description: 'We talk about web performance',
   language: 'en-us',
@@ -30,7 +30,7 @@ const siteMetadata = {
     //   posthogProjectApiKey: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     // },
      googleAnalytics: {
-       googleAnalyticsId: '', // e.g. G-01WHYFML8X
+       googleAnalyticsId: 'G-01WHYFML8X', // e.g. G-01WHYFML8X
      },
   },
   newsletter: {

@@ -24,10 +24,6 @@ export default function Footer() {
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
           <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog" target="_blank">
             Powered By Tailwind Nextjs Theme</Link>div>
-<div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
- <Link href="https://vercel.com" target="_blank">
-            Hosted on Vercel
-</Link>div>
           </Link>
         </div>
       </div>

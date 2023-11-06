@@ -1,0 +1,72 @@
+---
+title: 'Understanding Core Web Vitals: The Essentials for a Better Web Experience'
+date: '2023-11-06'
+lastmod: '2023-11-06'
+tags: ['web performance','core web vitals']
+draft: false
+summary: 'In this article we will introduce you to Core Web Vitals - The Essentials for a Better Web Experience'
+images: ['/static/images/core-web-vitals.png']
+authors: ['default']
+layout: PostLayout
+canonicalUrl: https://perfhack.com/blog/Understanding-Core-Web-Vitals
+
+![web performance banner](/static/images/core-web-vitals.png)
+
+# Understanding Core Web Vitals: The Essentials for a Better Web Experience
+
+Core Web Vitals are a set of specific factors that Google considers important in a webpage's overall user experience. As part of Google's Web Vitals initiative, these metrics are designed to help website owners measure and improve the quality of their sites in terms of loading performance, interactivity, and visual stability. Let's delve into each of these critical factors.
+
+## Largest Contentful Paint (LCP)
+
+### What is LCP?
+
+Largest Contentful Paint (LCP) measures the time it takes for the main content of a page to become visible to the user, specifically looking at the largest content element visible in the viewport. This could be an image, video, or a block-level text element.
+
+### Why is LCP Important?
+
+LCP is a user-centric metric that reflects the perceived load speed of the page. A fast LCP reassures the user that the page is useful and encourages them to engage with the content.
+
+### How to Improve LCP?
+
+- Optimize and compress images and videos.
+- Use lazy loading for non-critical resources.
+- Remove any unnecessary third-party scripts.
+- Upgrade your web hosting for faster server response times.
+
+## First Input Delay (FID)
+
+### What is FID?
+
+First Input Delay (FID) measures the time from when a user first interacts with your page (i.e., when they click a link, tap on a button, etc.) to the time when the browser is actually able to respond to that interaction.
+
+### Why is FID Important?
+
+FID is crucial because it measures how users experience interactivity on a webpage. A low FID helps ensure that the page is usable and responsive.
+
+### How to Improve FID?
+
+- Minimize (or defer) JavaScript; it cannot be processed until the page is fully loaded.
+- Remove any non-critical third-party scripts.
+- Use a web worker to run some JavaScript on a background thread.
+
+## Cumulative Layout Shift (CLS)
+
+### What is CLS?
+
+Cumulative Layout Shift (CLS) measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page.
+
+### Why is CLS Important?
+
+CLS is important because it quantifies how often users experience unexpected layout shifts — a low CLS ensures a more stable and visually consistent experience.
+
+### How to Improve CLS?
+
+- Include size attributes for images and video elements to prevent reflow as resources load.
+- Reserve space for ad elements before they load.
+- Avoid inserting new content above existing content unless in response to a user interaction.
+
+
+
+Improving Core Web Vitals is not just about boosting your SEO rankings; it's about providing a better, more engaging experience for your users. By focusing on these key aspects, you can ensure that your site not only ranks well but also delights your visitors, making them more likely to return.
+
+Remember, the web is for everyone, and a great user experience is the cornerstone of a successful online presence. Keep testing, keep optimizing, and keep your users at the heart of everything you do.
